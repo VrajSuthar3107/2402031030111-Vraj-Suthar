@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+.nav-links .active {
+    font-weight: bold;
+}
+
+.signup-btn {
+    background: transparent;
+    border: 1px solid black;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-container {
+    padding: 40px 50px;
+    text-align: left;
+    margin-top: -42px;
+}
+
+.about-container h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+p {
+    color: #ccc;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.about-text {
+    margin-left: 90px;
+}
+.about-img {
+    width: 300px;
+    height: 314px;
+    border-radius: 5px;
+}
+
+.about-text h3 {
+    margin: 20px 0 5px;
+    font-size: 18px;
+}
+
+.about-text hr {
+    width: 100%;
+    height: 2px;
+    background: black;
+    border: none;
+    margin: 5px 0;
+}
+
+.footer {
+    background-color: #d7f0f0;
+    padding: 12px;
+    margin-top: 84px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a img {
+    width: 30px; 
+    height: 30px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 90%;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.nav-links .active {
+  font-weight: bold;
+}
+
+.signup-btn {
+  background: transparent;
+  border: 1px solid black;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  margin-top: -30px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.hero p {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: -30px;
+  text-align: left;
+  margin-left: 140px;
+  color: black;
+  font-weight: bolder;
+}
+
+.community {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.arrow-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.members img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-left: -5px;
+}
+
+
+.count {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.text {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -13px;
+  height: 280px;
+}
+
+.footer {
+  background-color: #d7f0f0;
+  padding: 12px;
+  margin-top: 52px;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a img {
+  width: 30px; 
+  height: 30px;
+  margin: 0 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img:hover {
+  transform: scale(1.2);
+}
